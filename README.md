@@ -43,3 +43,22 @@ source venv/bin/activate
 ```bash
 pip install fastapi uvicorn openai websockets
 ```
+
+## Getting a copy of the code
+- [simple-chabot](https://github.com/marty916/simple-chatbot)
+
+### Option 1: Using Git (Recommended)
+1. Open Terminal/Command Prompts
+2. Navigate to desired directly (don't create the simple-chatbot directory git clone will do it for you)
+3. Use the git clone command (copy this command)
+```bash
+git clone https://github.com/marty916/simple-chatbot.git
+```
+4. After cloning, navigate into the newly created directory
+```bash
+cd simple-chatbot
+```
+
+### Option 2: Downloading the ZIP file
+
+
