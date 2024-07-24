@@ -61,4 +61,7 @@ cd simple-chatbot
 
 ### Option 2: Downloading the ZIP file
 
-
+If you don't have Git installed
+1. Click on the 'Code' button above
+2. Save the ZIP file to the desired location
+3. Extract the ZIP file to your desired directory
