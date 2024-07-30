@@ -6,6 +6,7 @@ This guide will walk you through setting up a chatbot using FastAPI and the Open
 
 - [Python](https://www.python.org/downloads/)
 - [Visual Studio Code](https://code.visualstudio.com/)
+- [Socket.io](https://socket.io/docs/v4/tutorial/introduction)
 
 ## Steps to Set Up the Chatbot
 

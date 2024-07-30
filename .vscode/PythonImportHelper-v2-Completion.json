@@ -32,12 +32,28 @@
         "documentation": {}
     },
     {
+        "label": "OpenAI",
+        "importPath": "openai",
+        "description": "openai",
+        "isExtraImport": true,
+        "detail": "openai",
+        "documentation": {}
+    },
+    {
         "label": "os",
         "kind": 6,
         "isExtraImport": true,
         "importPath": "os",
         "description": "os",
         "detail": "os",
+        "documentation": {}
+    },
+    {
+        "label": "load_dotenv",
+        "importPath": "dotenv",
+        "description": "dotenv",
+        "isExtraImport": true,
+        "detail": "dotenv",
         "documentation": {}
     },
     {
@@ -64,6 +80,33 @@
         "description": "app",
         "peekOfCode": "app = FastAPI()\n@app.get(\"/\")\nasync def get():\n    return HTMLResponse(\"\"\"\n    <!DOCTYPE html>\n    <html>\n    <head>\n        <title>Chatbot</title>\n    </head>\n    <body>",
         "detail": "app",
+        "documentation": {}
+    },
+    {
+        "label": "openai.api_key",
+        "kind": 5,
+        "importPath": "code-generator",
+        "description": "code-generator",
+        "peekOfCode": "openai.api_key = 'YOUR_API_KEY'\nload_dotenv()\nclient = OpenAI(\n    # This is the default and can be omitted\n    api_key = os.getenv('OPENAI_API_KEY')\n)\nresponse = client.chat.completions.create(\n            messages=[\n                {\"role\": \"user\", \"content\": \"def add(a, b):\\n    \"}\n            ],",
+        "detail": "code-generator",
+        "documentation": {}
+    },
+    {
+        "label": "client",
+        "kind": 5,
+        "importPath": "code-generator",
+        "description": "code-generator",
+        "peekOfCode": "client = OpenAI(\n    # This is the default and can be omitted\n    api_key = os.getenv('OPENAI_API_KEY')\n)\nresponse = client.chat.completions.create(\n            messages=[\n                {\"role\": \"user\", \"content\": \"def add(a, b):\\n    \"}\n            ],\n            model=\"gpt-4o-mini\"\n        )",
+        "detail": "code-generator",
+        "documentation": {}
+    },
+    {
+        "label": "response",
+        "kind": 5,
+        "importPath": "code-generator",
+        "description": "code-generator",
+        "peekOfCode": "response = client.chat.completions.create(\n            messages=[\n                {\"role\": \"user\", \"content\": \"def add(a, b):\\n    \"}\n            ],\n            model=\"gpt-4o-mini\"\n        )\nprint(response.choices[0].message.content)",
+        "detail": "code-generator",
         "documentation": {}
     }
 ]
